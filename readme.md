@@ -5,6 +5,10 @@
 **Contents**
 
 - [Collaboration](#collaboration)
+- [Developing docs](#developing-docs)
+- [Publishing docs](#publishing-docs)
+- [Paths](#paths)
+- [Updating this readme](#updating-this-readme)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -29,6 +33,11 @@ To start working on website and docs, first prepare your development environment
     $ sphinx-build --version
     
     sphinx-build 2.3.1
+    ```
+3. If you want to publish website to GitHub pages, also install the `gh-pages` npm package:
+
+    ```console
+    $ npm install gh-pages
     ```
 
 Now your environment is ready.
@@ -58,7 +67,21 @@ $ make serve-ru
 
 # Publishing docs
 
+Make sure you have `gh-pages` installed.
+
+```console
+$ make publish
+```
+
 # Paths
 
 * `./site/` - website
 * `./docs/` - Sphinx documentation
+
+# Updating this readme
+
+To update TOC, run
+
+```console
+$ make toc
+```
