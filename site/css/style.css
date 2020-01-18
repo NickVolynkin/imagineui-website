@@ -9,7 +9,8 @@ a {
 }
 
 a:hover {
-    opacity: 50%;
+    opacity: 70%;
+    border-bottom: 2px solid #7D3FFF;
 }
 
 .page-header {
@@ -44,10 +45,11 @@ a:hover {
 .menu-link>a {
     color: black;
     font-size: 18px;
+    padding: 8px 0 8px 8px;
 }
 
 .main-screen {
-    background: lightgoldenrodyellow url("../images/bg2.png") no-repeat;
+    background: lightgoldenrodyellow url("../images/bg.png") no-repeat;
     background-size: contain;
 }
 
@@ -92,7 +94,7 @@ a:hover {
     width: 80%;
     height: 500px;
     background-color: white;
-    border-radius: 6px;
+    border-radius: 2px;
     border: none;
     box-shadow: 0 4px 15px rgba(188, 143, 143, 0.4);
 }
@@ -127,9 +129,8 @@ a:hover {
     width: 33.333%;
     max-width: 360px;
     margin: 16px 40px 16px 0;
-    border-radius: 4px;
     border: none;
-    box-shadow: 0 4px 10px rgba(188, 143, 143, 0.4);
+    box-shadow: 0 2px 5px rgba(188, 143, 143, 0.4);
     position: relative;
 }
 
@@ -142,6 +143,7 @@ a:hover {
     height: 250px;
     border-bottom: 2px solid #D5D1DE;
     padding-top: 16px;
+    opacity: 85%;
 }
 
 .image-overlay {
@@ -149,18 +151,18 @@ a:hover {
     top: 0;
     width: 100%;
     height: 266px;
-    border-radius: 4px 4px 0 0;
     background-color: #7D3FFF;
     opacity: 20%;
 }
 
 .gallery-card>.description {
-    padding: 16px 16px;
+    padding: 32px;
     width: 100%;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .gallery-card>.description>span {
@@ -178,16 +180,27 @@ a:hover {
     box-sizing: border-box;
     font-weight: bold;
     font-size: 18px;
-    border-radius: 4px;
     border: 2px solid #D4CAEA;
+    display: none;
 }
 
 .gallery-card:hover {
-    box-shadow: 0 4px 20px rgba(188, 143, 143, 0.4);
+    box-shadow: 0 2px 10px rgba(188, 143, 143, 0.4);
 }
 
 .gallery-card:hover .image-overlay {
     opacity: 10%;
+}
+
+.gallery-card:hover .description{
+    position: absolute;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    height: 100%;
+}
+
+.gallery-card:hover .description>a{
+    display: block;
 }
 
 .gallery-card>.description>a:hover {
