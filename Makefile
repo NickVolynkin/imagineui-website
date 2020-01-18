@@ -7,6 +7,7 @@ SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = docs/source
 BUILDDIR      = build
+PUBLISHDIR    = publish
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -25,6 +26,13 @@ en:
 
 ru:
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)"/ru -D language=ru_RU
+
+
+serve: clean
+	sphinx-autobuild -E --delay 5 --ignore *_jb_* "$(SOURCEDIR)" -D language=en_GB "$(BUILDDIR)/en"
+
+serve-ru: clean
+	sphinx-autobuild -E --delay 5 --ignore *_jb_* -D language=ru_RU  "$(SOURCEDIR)" "$(BUILDDIR)/ru"
 
 docs: clean en ru
 

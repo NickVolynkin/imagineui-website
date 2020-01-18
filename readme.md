@@ -1,10 +1,12 @@
 # Website and documentation for ImagineUI
 
-Paths:
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contents**
 
-* `./site/` - website
-* `./docs/` - Sphinx documentation
+- [Collaboration](#collaboration)
 
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Collaboration
 
@@ -39,3 +41,24 @@ $ which python
 
 <shows path to your virtual environment>
 ```
+
+# Developing docs
+
+## Run a live-reload server
+
+This will run a local webserver which rebuilds on changes and reloads your browser tab
+
+```console
+# English version
+$ make serve
+
+# translated Russian version
+$ make serve-ru
+```
+
+# Publishing docs
+
+# Paths
+
+* `./site/` - website
+* `./docs/` - Sphinx documentation
