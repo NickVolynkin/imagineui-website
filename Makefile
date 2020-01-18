@@ -23,14 +23,14 @@ help:
 
 
 en:
-	@$(SPHINXBUILD) -M $(BUILDER) "$(SOURCEDIR)" "$(BUILDDIR)"/en -D language=en_GB
+	@$(SPHINXBUILD) -M $(BUILDER) "$(SOURCEDIR)" "$(BUILDDIR)"/en -D language=en
 
 ru:
 	@$(SPHINXBUILD) -M $(BUILDER) "$(SOURCEDIR)" "$(BUILDDIR)"/ru -D language=ru_RU
 
 
 serve: clean
-	sphinx-autobuild -E -b $(BUILDER) --delay 5 --ignore *_jb_* -D language=en_GB "$(SOURCEDIR)"  "$(BUILDDIR)/en"
+	sphinx-autobuild -E -b $(BUILDER) --delay 5 --ignore *_jb_* -D language=en "$(SOURCEDIR)"  "$(BUILDDIR)/en"
 
 serve-ru: clean
 	sphinx-autobuild -E -b $(BUILDER) --delay 5 --ignore *_jb_* -D language=ru_RU "$(SOURCEDIR)" "$(BUILDDIR)/ru"
