@@ -1,5 +1,7 @@
 .idea
 *.mo
+build/
+publish
 tmp/
 
 # Byte-compiled / optimized / DLL files
