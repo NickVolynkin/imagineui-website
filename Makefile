@@ -8,6 +8,7 @@ SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = docs/source
 BUILDDIR      = build
 PUBLISHDIR    = publish
+BUILDER       = dirhtml
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -22,17 +23,17 @@ help:
 
 
 en:
-	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)"/en -D language=en_GB
+	@$(SPHINXBUILD) -M $(BUILDER) "$(SOURCEDIR)" "$(BUILDDIR)"/en -D language=en
 
 ru:
-	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)"/ru -D language=ru_RU
+	@$(SPHINXBUILD) -M $(BUILDER) "$(SOURCEDIR)" "$(BUILDDIR)"/ru -D language=ru_RU
 
 
 serve: clean
-	sphinx-autobuild -E --delay 5 --ignore *_jb_* "$(SOURCEDIR)" -D language=en_GB "$(BUILDDIR)/en"
+	sphinx-autobuild -E -b $(BUILDER) --delay 5 --ignore *_jb_* -D language=en "$(SOURCEDIR)"  "$(BUILDDIR)/en"
 
 serve-ru: clean
-	sphinx-autobuild -E --delay 5 --ignore *_jb_* -D language=ru_RU  "$(SOURCEDIR)" "$(BUILDDIR)/ru"
+	sphinx-autobuild -E -b $(BUILDER) --delay 5 --ignore *_jb_* -D language=ru_RU "$(SOURCEDIR)" "$(BUILDDIR)/ru"
 
 docs: clean en ru
 
@@ -42,8 +43,8 @@ clean-publish:
 prepare-publish: docs clean-publish
 	cp -r site "$(PUBLISHDIR)"
 	mkdir -p "$(PUBLISHDIR)/en" "$(PUBLISHDIR)/ru"
-	cp -r build/en/html 	"$(PUBLISHDIR)/en/docs"
-	cp -r build/ru/html 	"$(PUBLISHDIR)/ru/docs"
+	cp -r "$(BUILDDIR)/en/$(BUILDER)" 	"$(PUBLISHDIR)/en/docs"
+	cp -r "$(BUILDDIR)/ru/$(BUILDER)" 	"$(PUBLISHDIR)/ru/docs"
 
 publish: prepare-publish
 	gh-pages -t -d publish

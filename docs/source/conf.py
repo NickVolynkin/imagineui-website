@@ -1,4 +1,6 @@
 # -- Project information -----------------------------------------------------
+from pygments.lexers.testing import GherkinLexer
+from sphinx.application import Sphinx
 
 project = 'ImagineUI'
 copyright = '2020, Nick Volynkin'
@@ -33,12 +35,12 @@ html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {
     'canonical_url': '',
-    'analytics_id': 'UA-XXXXXXX-1',  # Provided by Google in your dashboard
+    'analytics_id': 'UA-107215405-2',  # Provided by Google in your dashboard
     'logo_only': False,
     'display_version': False,
     'style_external_links': False,
     # Toc options
-    'collapse_navigation': True,
+    'collapse_navigation': False,
     'sticky_navigation': True,
     'includehidden': True,
     'titles_only': True
@@ -56,3 +58,10 @@ html_context = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 html_show_sourcelink = False
+html_copy_source = False
+
+imagineui = GherkinLexer()
+
+def setup(app: Sphinx):
+    app.add_lexer('imagineui', imagineui)
+    pass
