@@ -39,11 +39,13 @@ docs: clean en ru
 clean-publish:
 	rm -rf "$(PUBLISHDIR)"
 
-publish: docs clean-publish
+prepare-publish: docs clean-publish
 	cp -r site "$(PUBLISHDIR)"
 	mkdir -p "$(PUBLISHDIR)/en" "$(PUBLISHDIR)/ru"
 	cp -r build/en/html 	"$(PUBLISHDIR)/en/docs"
 	cp -r build/ru/html 	"$(PUBLISHDIR)/ru/docs"
+
+publish: prepare-publish
 	gh-pages -t -d publish
 
 toc:
