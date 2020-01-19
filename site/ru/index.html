@@ -5,12 +5,15 @@
     <title>ImagineUI</title>
     <link href="../css/style.css" rel="stylesheet" type="text/css">
     <meta name="description" content="CLI tool to generate wireframes from a localized human-readable format">
+    <link href="../css/sandbox.css" rel="stylesheet">
+
 </head>
 <body>
 <header class="page-header">
     <nav class="nav">
         <span class="logo">ImagineUI</span>
         <ul class="menu">
+            <li class="menu-link"><a href="https://github.com/imagineui/imagineui">GitHub</a></li>
             <li class="menu-link"><a href="https://imagineui.netlify.com/">Sandbox</a></li>
             <li class="menu-link"><a href="docs">Docs</a></li>
         </ul>
@@ -24,7 +27,24 @@
                 <span>A mockups-as-code tool</span>
             </div>
             <div class="demonstration">
-                <div class="demonstration-screen"></div>
+                <div class="demonstration-screen">
+                                    <script src="../js/sandbox.js" type="text/javascript">
+Page: "Welcome screen"
+Block: "Header"
+    Header "Mockup poetry"
+Block: "Flowers"
+    Two columns
+        Image "Roses are red,"
+        Image "Violets are blue."
+        Image "Your mockups are awesome,"
+        Image "And so are you!"
+Block: "Footer"
+    One row
+    Button "Try ImagineUI"
+    Button "Subscribe"
+    Button "Contribute"
+                  </script>
+                </div>
             </div>
         </div>
     </section>
