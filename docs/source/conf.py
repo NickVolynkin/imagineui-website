@@ -61,11 +61,14 @@ html_show_sourcelink = False
 html_copy_source = False
 
 locale_dirs = ['locale/']
-gettext_compact = True # default
+gettext_compact = True  # default
 gettext_uuid = True
 gettext_location = False
+gettext_additional_targets = ['literal-block', 'image']
+
 
 imagineui = GherkinLexer()
+
 
 def setup(app: Sphinx):
     app.add_lexer('imagineui', imagineui)

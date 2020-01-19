@@ -4,8 +4,7 @@ Text
 Usage
 ------
 
-``Text`` is just some non-interactive text on your mockup.
-Write it in quotes to make sure it won't become anything else.
+To add some non-interactive text on your mockup, just write it in quotes:
 
 ..  code-block:: imagineui
 
