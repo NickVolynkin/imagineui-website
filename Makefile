@@ -47,7 +47,9 @@ prepare-publish: docs clean-publish
 	cp -r "$(BUILDDIR)/ru/$(BUILDER)" 	"$(PUBLISHDIR)/ru/docs"
 
 publish-only:
-	gh-pages -tf  -d publish -b master -r git@github.com:imagineui/imagineui.github.io.git
+	gh-pages -tf -d publish
+	git fetch origin
+	git push -f website origin/gh-pages:master
 
 publish: prepare-publish publish-only
 
