@@ -7,194 +7,299 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ImagineUI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 21:21+0700\n"
-"PO-Revision-Date: 2020-01-19 21:56+0700\n"
+"POT-Creation-Date: 2020-01-19 22:10+0700\n"
+"PO-Revision-Date: 2020-01-19 22:11+0700\n"
+"Last-Translator: Nick Volynkin <nick.volynkin@gmail.com>\n"
+"Language: ru\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
-"Last-Translator: Nick Volynkin <nick.volynkin@gmail.com>\n"
-"Language-Team: \n"
-"Language: ru\n"
 "X-Generator: Poedit 2.2.4\n"
 
-#: 0ea6f9bf17fc4597944b487ac74a0ac0
+#: 8de06006dc594e248f4bb78f0c896db8
 msgid "Page blocks"
 msgstr "Блоки интерфейса"
 
-#: 9d2aa28a585f4af0bb8f162a57a4839b
+#: 0ea9a816f1b644ecb6cdf8999c8efef0
 msgid "Page elements"
 msgstr "Элементы интерфейса"
 
-#: 609db618505a4c198337c44cb4dfdda3
+#: b7132163e51e43e58316b26d974bd762
 msgid "Modifiers"
 msgstr "Модификаторы"
 
-#: 0bce5d1b3afe4efb9577fa6bf6d2130b
+#: af754145eb0a4c0ead12988cc4bbe624
 msgid "Layouts"
 msgstr "Расположения"
 
-#: 638652663a3b484694a11413fbb82ec3
+#: 536959d72204423f9dccfced5da43d3b
 msgid "Data types"
 msgstr "Типы данных"
 
-#: 3143e8f8e75c436b94859945538e21f6
+#: da7cadec4e1f4b2aa5cc220620b0d169
 msgid "Syntax"
 msgstr "Синтаксис"
 
-#: c9cb1bdf9b7f4aaa9534451e55870327
+#: c5c9a24ba8a9425599db5230a97088d1
 msgid "Aligned"
 msgstr "Расположены"
 
-#: 091524891bfc42588a3a42f40c7a58c4
+#: 4b1be812ff874bc8be382b020ca38b4f
 msgid "Use this keyword to align elements in a block:"
 msgstr "Используйте это ключевое слово чтобы задать расположение элементов в блоке:"
 
-#: 54dc520215dd44a2ad669638e5f3886a
+#: c1a43212e5cf4eef804844353e3dd5d8
 msgid "Block"
 msgstr "Блок"
 
-#: 1ff9b8f778e14ec4acf19caa9c446265 356286e368224d01b5c597f59bdd60b1
-#: 4cb65141e5144d59a5f7114b4f7b7c0e 556a60dfdfe745b4aa42be6db8b028c9
-#: 8c1b82109e6c4ebaaa6facf6a9288c66 9307b54fa3e248128e7bec70579ca655
-#: afa11c112b5149c6aecf114cb88129c9 d52a47693ad04b1997e45b8f6957936b
-#: d623d210ad0840cfb2fac55be32e0505 d84f0b485c9e4d4c953fa786b4753c4a
-#: ddf60f0fb6e0459ebe7ab0007c127dc8
+#: 239d6d61d17b4dc191cfbed853cc58f5 382dcbda6b4245839d8319bfe3ae2597
+#: 739c833299314408a1323b936a4947bd 7b8f6c004e6e4106a7c67bf8bada46c8
+#: 81e7b0eb501c4566b4c74ce494e217b0 949e5270037d4a4bb92301115b975fe4
+#: 9e37ba266c8345f3b6b443d995997ebb 9f9c619b42374f38a8fde257b1566ecf
+#: b090ff3f0a79402780a114985d8610d1 ed2851055d1d411387c8e05d180f8eec
+#: f6e5a91fdb6a4cd0af7ff618fee15190
 msgid "Usage"
 msgstr "Использование"
 
-#: 202656417e4749428eb74d9a6ff5d483
+#: 8c1e7eb48d1c4da68260aabe8417f4f2
 msgid "Use ``Block`` to define major areas of a :doc:`page`. Each page can contain one or more blocks."
 msgstr "Используйте ``Блок`` чтобы обозначить крупные области :doc:`страницы <page>`. Каждая страница может содержать один или более блоков."
 
-#: 05a9d0a779934deaa591a14a561b270c
+#: 0ae4df547d4347e89408fc78ce4743d1 96f043bdc1ce4769a26211a7ff0042d6
+#: aa5514c34f904f5782ebaf0adbe3c609
+msgid ""
+"Page \"Signup\"\n"
+"Block \"Personal data\"\n"
+"    Field \"Name\"\n"
+"    Field \"Surname\"\n"
+"    Field \"e-mail\"\n"
+"    Button \"Sign up\""
+msgstr ""
+
+#: ec88c968e9af4bbe83ff06a3e76cb928
 msgid "Note that you can define :ref:`layouts <layout>` for elements in a block."
 msgstr "Обратите внимание, что для элементов внутри блока можно задать :ref:`расположение <layouts>`."
 
-#: 76237ae2211e46c6b622d79187ab6a87
+#: fd130d918f814c79bbdf76cfe2af73f1
 msgid "Button"
 msgstr "Кнопка"
 
-#: 52ec807f408c4d8f8a445f215fe1af3c
+#: 0dca74ce8dcb45f38f0f711792594e4c
 msgid "Use the ``Button`` keyword for anything clickable on a page:"
 msgstr "Используйте ключевое слово ``Кнопка`` для всего, что можно нажать:"
 
-#: 9ba339fc145d42dfbb79445f51dc2770
+#: 5095212c02ef4620980aeb206dc72c47
 msgid "As with other keywords, word order and capitalization are optional:"
 msgstr "Как и с остальными ключевыми словами, порядок слов и заглавные буквы опциональны:"
 
-#: 0167a19cc20a4fa3bed344873edf11da
+#: 6c59bdd5dbb14af299abe4acf97fbd40
+msgid ""
+"...\n"
+"\"Sign up\" button\n"
+"\"Log in\" button"
+msgstr ""
+
+#: 1f575faf70134a988c9caa8a5dc6fb5e
 msgid "Examples"
 msgstr "Примеры"
 
-#: bec184de2ddf408886b689161890a38b
+#: d409645c6ce94d8bb4ef35b870aa7fb6
 msgid "Buttons in an installation wizard:"
 msgstr "Кнопки в мастере установки:"
 
-#: b1d31957c4b54049ad464c2ea44c8bd9
+#: d6ec99fe84444421bb6dca1ed7270d31
+msgid ""
+"Page \"Installation Wizard\"\n"
+"Block \"Settings\"\n"
+"    \"Some settings here\"\n"
+"Block \"Navigation\"\n"
+"    Button \"Cancel\"\n"
+"    Button \"Previous\"\n"
+"    Button \"Next\""
+msgstr ""
+
+#: 57f105b2889546c4b0392ac919acc1b4
 msgid "Columns"
 msgstr "Столбец"
 
-#: a480c9d2358645689e84e8f96e645f7c
+#: a8b45014519b44f8a4cbe9ac0321ad9f
 msgid "Use ``Columns`` with a :doc:`number <numbers>` to arrange elements in one or more columns."
 msgstr "Используйте ``Столбцы`` вместе с :doc:`числом <numbers>` чтобы организовать элементы в один или больше столбцов."
 
-#: 56cb9b52e8884000ab72017783b630a5
+#: 47d00eab20cf41e9b94c652abc8f9365
 msgid "For example, a vertical menu:"
 msgstr "Например, вертикальное меню:"
 
-#: 4eaddc5b13ff4819961600949e0c2f87
+#: e569cd409cca4a719c8b7f093a00ce6f
+msgid ""
+"Block \"Navigation\"\n"
+"    One column\n"
+"    \"Profile\"\n"
+"    \"Friends\"\n"
+"    \"Messages\"\n"
+"    \"Settings\""
+msgstr ""
+
+#: f855e4382c1e40848c1d37caf50d9207
 msgid "Or, an online store:"
 msgstr "Или онлайн-магазин:"
 
-#: 2fd473e40b94478b818085a4e741527c
+#: 9c936150a188494fa8a6c0c4724ca203 c9377853c1644faa83d0785c891d0d9f
+msgid ""
+"Block \"Store\"\n"
+"    Three columns\n"
+"    List of things on sale\n"
+"        Consists of\n"
+"            Header\n"
+"            Image\n"
+"             \"Buy now\" Button"
+msgstr ""
+
+#: af09f802af55441bbb5316da078c5d25
 msgid "Consists of"
 msgstr "Включает в себя"
 
-#: b702bc3c0ef241ada19b938633e52f0b
+#: dfb1c1dfb33841499f6fb5c46e77497f
 msgid "Use the ``Consists of`` keyword to fill a :doc:`list <list>` with typical elements:"
 msgstr "Используйте ключевое слово ``Включает в себя`` чтобы заполнить :doc:`список <list>` типовыми элементами:"
 
-#: cc3b61cb4ca2489cb6ad283d6acbf7ea
+#: 95e1ad39f8c64e9dbfe3573f4b5f9c21
 msgid "Example"
 msgstr "Пример"
 
-#: 568726c1eb0f497e854c523509bc336b
+#: 91df08056bf74e839644116c91da6d27
 msgid "Field"
 msgstr "Поле"
 
-#: c3bbe02093b140b2b3be391e8c7115cb
+#: 520b3b1bb66c475998bdb358bb674c7f
 msgid "``Field`` is any text that the user types on a page."
 msgstr "``Поле`` — это любой текст, который пользователь вводит на странице."
 
-#: 298dbe611caa49f6b4d7f261558d61cc
+#: 073d2a87cc854041be15d8943766ddf4
 msgid "Header"
 msgstr "Заголовок"
 
-#: bff64615434c48f29a0408181ac2cb91
+#: 58237bc6f4f84f21837f80cf5bf05551
 msgid "Use ``Header`` to highlight short lines of text:"
 msgstr "Используйте ``Заголовок`` чтобы выделить небольшую строку:"
 
-#: c42d3109f2374a9f9b2a1d2132dbe803
+#: 8366e4058780454baf9130f831deebff
+msgid ""
+"Page \"Blog post\"\n"
+"Block \"Text\"\n"
+"    Header \"Post title\"\n"
+"    \"Author's name\"\n"
+"    Image for drawing attention\n"
+"    \"Text\""
+msgstr ""
+
+#: d56bd37c38de423ab6c9739f89176189
 msgid "Image"
 msgstr "Картинка"
 
-#: 1c52131c1040443b8ec386fcfbd9d7ce
+#: 7b4da2b862fe4a97968629ce80030984
 msgid "Use ``Image`` to define the place to put an image, diagram or video. Don't bother providing a real image. Instead, the mockup will have an image placeholder. Text is optional."
 msgstr "Используйте ключевое слово ``Картинка`` чтобы обозначить место для изображения, диаграммы или видео. Не трудитесь находить настоящую картинку. Вместо неё будет плейсхолдер. Текст на картинке опционален."
 
-#: ab4cc82db57240e293d3ee3dae3bcbec
+#: ada455d384ad4098b3f5044213e165ba
+msgid ""
+"Page \"Flowers shop\"\n"
+"Block \"Flowers\"\n"
+"    Two columns\n"
+"        Image \"Roses are red,\"\n"
+"        Image \"Violets are blue.\"\n"
+"        Image \"Your mockups are great,\"\n"
+"        Image \"And so are you!\""
+msgstr ""
+
+#: c1cc94ddcb74457a8e0708747ad20b32
 msgid "List"
 msgstr "Список"
 
-#: 7cf5130ffab8420e8a4c284f425966e6
+#: fa776e516b054ebdab3de5143ebb1ceb
 msgid "Main"
 msgstr "Главный"
 
-#: b45f2e9e6c83462ca0ba94da2afdb18a
+#: 57f0072077bd43eebb0b905d81360366
 msgid "Numbers"
 msgstr "Числа"
 
-#: bc55e7b585a34d5ca242de507245cc3e
+#: 68bfbbcb95c44f4fa478fd3c1d8d690b
 msgid "Page"
 msgstr "Страница"
 
-#: 3ba1f2c7fce647cfa4bc5aea3d64688d
+#: 452fe127e3e94e0c9321964f75e6f79e
 msgid "Start every scene with ``Page`` keyword and a name:"
 msgstr "Начинайте каждую сцену с ключевого слова ``Страница`` с названием."
 
-#: a7c625922e484c95a728fe87508c1dd4
+#: d2bfa7a44b9c4d46a2175bb0fbe2320f
+msgid ""
+"Page \"Signup\"\n"
+"Block \"Top menu\"\n"
+"    ...\n"
+"Block \"Personal data\"\n"
+"    ...\n"
+"Block \"Footer\""
+msgstr ""
+
+#: 8e916944a8c54bf5a9efc43b4f0b5630
 msgid "The page's name is there just for you to remember what each scene is about. It does not appear on the rendered mockup."
 msgstr "Название страницы поможет вам запомнить, что описывает эта сцена. Оно не выводится на мокап."
 
-#: f47a738812a24a44952fd028c01efe32
+#: 2e53e3f066df4152a8a6bae566169ddd
 msgid "Word order and capitalization are optional. Use it to your convenience:"
 msgstr "Порядок слов и заглавные буквы опциональны. Используйте их, как вам удобно:"
 
-#: b9ab323a149c48d0a522a581b92cc184
+#: 826de79eef5b4bc181b683fba1a9d49e
+msgid ""
+"\"Signup\" page\n"
+"..."
+msgstr ""
+
+#: 7e20564a711946cfb5b3250959c27382
 msgid "Rows"
 msgstr "Строки"
 
-#: aadd77f8aa96418a8fff148d76d9d318
+#: b8577390b2e747de9d35d9128d6a27e8
 msgid "Use ``Columns`` with a :doc:`number <numbers>` to arrange elements in one or more rows (lines)."
 msgstr "Используйте ``Строки`` вместе с :doc:`числом <numbers>` чтобы организовать элементы в одну или больше строк."
 
-#: f4dd3ef4bc9b46468c5bca0dde7cfe4b
+#: 4e4c255debb046fa9172bd04e07f3766
 msgid "For example, a horizontal menu, like the one on this website:"
 msgstr "Например, горизонтальное меню, точно как на этом сайте:"
 
-#: 1955783f3d1b4702a63328c767ceccaa
+#: c46f436552d2458d8ccef26422f56c12
+msgid ""
+"Block \"Top-menu\"\n"
+"    One row\n"
+"    \"ImagineUI\"\n"
+"    \"Sandbox\"\n"
+"    \"Docs\""
+msgstr ""
+
+#: ab2849c9b69b4fa0b2c3feabdb0bf95a
 msgid "Text"
 msgstr "Текст"
 
-#: a0e1dc277063490a92b7d87f326008da
-msgid "``Text`` is just some non-interactive text on your mockup. Write it in quotes to make sure it won't become anything else."
-msgstr "``Текст`` — это любой неинтерактивный текст на мокапе. Напишите его в кавычках, чтобы он точно не распознался как что-то иное."
+#: 8d471622776d4fc8bfe932b88b52a96e
+msgid "To add some non-interactive text on your mockup, just write it in quotes:"
+msgstr "Чтобы добавить в мокап неинтерактивный текст, напишите его в кавычках:"
 
-#: 8f35f0c07a3040969f5fecd1caf1f254
+#: 90fc0031526844a1a77a9660e7597df6
+msgid ""
+"Page \"Very simple page\"\n"
+"Block \"Greeting\"\n"
+"    \"Hello!\"\n"
+"    \"You look awesome today.\""
+msgstr ""
+
+#: 86e7784cb2a64c19a9a1021f4012e16b
 msgid "With icon"
 msgstr "С иконкой"
 
-#: 79dd34a048034d368438b70e9f81134a
+#: 909b1064654c44d5901597eb1075cce9
 msgid "Use the ``With icon`` modifier to attach an icon to a :doc:`button`."
 msgstr "Используйте модификатор ``с иконкой``, чтобы добавить иконку к :doc:`кнопке <button>`."

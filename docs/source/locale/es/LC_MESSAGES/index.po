@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ImagineUI \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 21:21+0700\n"
+"POT-Creation-Date: 2020-01-19 22:07+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: 3fd9092fc6844bb098cccb797e75ca99
+#: 7362095d832a488ca6d827326b90729b
 msgid "Contents:"
 msgstr ""
 
-#: acb63af5b1b4428fa0ec0ce4baf8940c
+#: a525b320ca09473e96278bfbb600398d
 msgid "ImagineUI Documentation"
 msgstr ""
 
-#: 6fdc48fae1164aa38243d2398096aa60
+#: a48fe4dfad4c481380bb1e4048e2b937
 msgid "ImagineUI converts plaintext interface descriptions into visual mockups:"
+msgstr ""
+
+#: ce59f5b67e9c44d2abcd0d38b66652a1
+msgid ""
+"Page: Authorization\n"
+"Main block: Login\n"
+"    Image logo\n"
+"    Header\n"
+"    Field: \"e-mail or phone number\"\n"
+"    Password field\n"
+"    \"Log in\" button\n"
+"Service block\n"
+"    One row\n"
+"    \"Sign up\" button\n"
+"    \"Reset password\" button\n"
+"    \"2020 @ImagineUI\"\n"
+"Help block\n"
+"    Two columns\n"
+"    List of topics\n"
+"        consists of\n"
+"            Header\n"
+"            <Link to blog post>"
 msgstr ""
 
