@@ -3,55 +3,58 @@
 # This file is distributed under the same license as the ImagineUI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: ImagineUI \n"
+"Project-Id-Version: ImagineUI\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-19 22:10+0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-01-19 19:43+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: 8de06006dc594e248f4bb78f0c896db8
 msgid "Page blocks"
-msgstr ""
+msgstr "Bloques de páginas"
 
 #: 0ea9a816f1b644ecb6cdf8999c8efef0
 msgid "Page elements"
-msgstr ""
+msgstr "Elementos de la página"
 
 #: b7132163e51e43e58316b26d974bd762
 msgid "Modifiers"
-msgstr ""
+msgstr "Modificadores"
 
 #: af754145eb0a4c0ead12988cc4bbe624
 msgid "Layouts"
-msgstr ""
+msgstr "Diseño"
 
 #: 536959d72204423f9dccfced5da43d3b
 msgid "Data types"
-msgstr ""
+msgstr "Tipos de datos"
 
 #: da7cadec4e1f4b2aa5cc220620b0d169
 msgid "Syntax"
-msgstr ""
+msgstr "Sintaxis"
 
 #: c5c9a24ba8a9425599db5230a97088d1
 msgid "Aligned"
-msgstr ""
+msgstr "Alineado"
 
 #: 4b1be812ff874bc8be382b020ca38b4f
 msgid "Use this keyword to align elements in a block:"
 msgstr ""
+"Utiliza la siguente palabra clave para alinear los elementos dentro de un "
+"bloque: "
 
 #: c1a43212e5cf4eef804844353e3dd5d8
 msgid "Block"
-msgstr ""
+msgstr "Bloque"
 
 #: 239d6d61d17b4dc191cfbed853cc58f5 382dcbda6b4245839d8319bfe3ae2597
 #: 739c833299314408a1323b936a4947bd 7b8f6c004e6e4106a7c67bf8bada46c8
@@ -60,13 +63,15 @@ msgstr ""
 #: b090ff3f0a79402780a114985d8610d1 ed2851055d1d411387c8e05d180f8eec
 #: f6e5a91fdb6a4cd0af7ff618fee15190
 msgid "Usage"
-msgstr ""
+msgstr "Uso"
 
 #: 8c1e7eb48d1c4da68260aabe8417f4f2
 msgid ""
-"Use ``Block`` to define major areas of a :doc:`page`. Each page can "
-"contain one or more blocks."
+"Use ``Block`` to define major areas of a :doc:`page`. Each page can contain "
+"one or more blocks."
 msgstr ""
+"Utiliza ``Bloque`` para definir las principales partes de una :doc:`página`. "
+"Cada página puede contener un bloque o más. "
 
 #: 0ae4df547d4347e89408fc78ce4743d1 96f043bdc1ce4769a26211a7ff0042d6
 #: aa5514c34f904f5782ebaf0adbe3c609
@@ -78,22 +83,34 @@ msgid ""
 "    Field \"e-mail\"\n"
 "    Button \"Sign up\""
 msgstr ""
+"Página \"Registrarse\"\n"
+"Bloque \"Datos personales\"\n"
+"    Campo \"Nombre\"\n"
+"    Campo \"Apellidos\"\n"
+"    Campo \"correo electrónico\"\n"
+"    Botón \"Registrarse\""
 
 #: ec88c968e9af4bbe83ff06a3e76cb928
 msgid "Note that you can define :ref:`layouts <layout>` for elements in a block."
 msgstr ""
+"También se pueden definir los :ref:`diseños <layout>` para los elementos en un "
+"bloque."
 
 #: fd130d918f814c79bbdf76cfe2af73f1
 msgid "Button"
-msgstr ""
+msgstr "Botón"
 
 #: 0dca74ce8dcb45f38f0f711792594e4c
 msgid "Use the ``Button`` keyword for anything clickable on a page:"
 msgstr ""
+"Utiliza la palabra clave ``Botón`` para cualquier elemento cliqueable en la "
+"página: "
 
 #: 5095212c02ef4620980aeb206dc72c47
 msgid "As with other keywords, word order and capitalization are optional:"
 msgstr ""
+"Igual que con otras palabras claves el orden de palabras y la capitalización "
+"son opcionales: "
 
 #: 6c59bdd5dbb14af299abe4acf97fbd40
 msgid ""
@@ -101,14 +118,17 @@ msgid ""
 "\"Sign up\" button\n"
 "\"Log in\" button"
 msgstr ""
+"...\n"
+"\"Registrarse\" botón\n"
+"\"Entrar\" botón"
 
 #: 1f575faf70134a988c9caa8a5dc6fb5e
 msgid "Examples"
-msgstr ""
+msgstr "Ejemplos"
 
 #: d409645c6ce94d8bb4ef35b870aa7fb6
 msgid "Buttons in an installation wizard:"
-msgstr ""
+msgstr "Botones en un asistente de instalación:"
 
 #: d6ec99fe84444421bb6dca1ed7270d31
 msgid ""
@@ -120,20 +140,29 @@ msgid ""
 "    Button \"Previous\"\n"
 "    Button \"Next\""
 msgstr ""
+"Página \"Asistente de instalación\"\n"
+"Bloque \"Ajustes\"\n"
+"    \"Aquí van algunos ajustes\"\n"
+"Bloque \"Navegación\"\n"
+"    Botón \"Cancelar\"\n"
+"    Botón \"Anterior\"\n"
+"    Botón \"Siguente\""
 
 #: 57f105b2889546c4b0392ac919acc1b4
 msgid "Columns"
-msgstr ""
+msgstr "Columnas"
 
 #: a8b45014519b44f8a4cbe9ac0321ad9f
 msgid ""
-"Use ``Columns`` with a :doc:`number <numbers>` to arrange elements in one"
-" or more columns."
+"Use ``Columns`` with a :doc:`number <numbers>` to arrange elements in one or "
+"more columns."
 msgstr ""
+"Utiliza ``Columnas`` con el :doc:`número <numbers>` para ordenar y repartir "
+"los elementos en una o varias columnas."
 
 #: 47d00eab20cf41e9b94c652abc8f9365
 msgid "For example, a vertical menu:"
-msgstr ""
+msgstr "Por ejemplo, una navegación vertical:"
 
 #: e569cd409cca4a719c8b7f093a00ce6f
 msgid ""
@@ -144,6 +173,12 @@ msgid ""
 "    \"Messages\"\n"
 "    \"Settings\""
 msgstr ""
+"Bloque \"Navegación\"\n"
+"    Una columna\n"
+"    \"Perfíl\"\n"
+"    \"Amigos\"\n"
+"    \"Mensajes\"\n"
+"    \"Ajustes\""
 
 #: f855e4382c1e40848c1d37caf50d9207
 msgid "Or, an online store:"
@@ -166,8 +201,8 @@ msgstr ""
 
 #: dfb1c1dfb33841499f6fb5c46e77497f
 msgid ""
-"Use the ``Consists of`` keyword to fill a :doc:`list <list>` with typical"
-" elements:"
+"Use the ``Consists of`` keyword to fill a :doc:`list <list>` with typical "
+"elements:"
 msgstr ""
 
 #: 95e1ad39f8c64e9dbfe3573f4b5f9c21
@@ -206,9 +241,9 @@ msgstr ""
 
 #: 7b4da2b862fe4a97968629ce80030984
 msgid ""
-"Use ``Image`` to define the place to put an image, diagram or video. "
-"Don't bother providing a real image. Instead, the mockup will have an "
-"image placeholder. Text is optional."
+"Use ``Image`` to define the place to put an image, diagram or video. Don't "
+"bother providing a real image. Instead, the mockup will have an image "
+"placeholder. Text is optional."
 msgstr ""
 
 #: ada455d384ad4098b3f5044213e165ba
@@ -254,8 +289,8 @@ msgstr ""
 
 #: 8e916944a8c54bf5a9efc43b4f0b5630
 msgid ""
-"The page's name is there just for you to remember what each scene is "
-"about. It does not appear on the rendered mockup."
+"The page's name is there just for you to remember what each scene is about. It "
+"does not appear on the rendered mockup."
 msgstr ""
 
 #: 2e53e3f066df4152a8a6bae566169ddd
@@ -274,8 +309,8 @@ msgstr ""
 
 #: b8577390b2e747de9d35d9128d6a27e8
 msgid ""
-"Use ``Columns`` with a :doc:`number <numbers>` to arrange elements in one"
-" or more rows (lines)."
+"Use ``Columns`` with a :doc:`number <numbers>` to arrange elements in one or "
+"more rows (lines)."
 msgstr ""
 
 #: 4e4c255debb046fa9172bd04e07f3766
@@ -309,22 +344,9 @@ msgstr ""
 
 #: 86e7784cb2a64c19a9a1021f4012e16b
 msgid "With icon"
-msgstr ""
+msgstr "Con ícono"
 
 #: 909b1064654c44d5901597eb1075cce9
 msgid "Use the ``With icon`` modifier to attach an icon to a :doc:`button`."
 msgstr ""
-
-#~ msgid ""
-#~ "``Text`` is just some non-interactive"
-#~ " text on your mockup. Write it "
-#~ "in quotes to make sure it won't"
-#~ " become anything else."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To add some non-interactive text "
-#~ "on your mockup, just write it in"
-#~ " quotes without any other"
-#~ msgstr ""
-
+"Utiliza el modificador ``Con ícono`` para adjuntar un ícono al :doc:`botón`."

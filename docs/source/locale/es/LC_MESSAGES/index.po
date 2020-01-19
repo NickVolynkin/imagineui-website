@@ -3,31 +3,32 @@
 # This file is distributed under the same license as the ImagineUI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: ImagineUI \n"
+"Project-Id-Version: ImagineUI\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-19 22:07+0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-01-19 19:29+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: 7362095d832a488ca6d827326b90729b
 msgid "Contents:"
-msgstr ""
+msgstr "Contenido:"
 
 #: a525b320ca09473e96278bfbb600398d
 msgid "ImagineUI Documentation"
-msgstr ""
+msgstr "Documentación de ImagineUI"
 
 #: a48fe4dfad4c481380bb1e4048e2b937
 msgid "ImagineUI converts plaintext interface descriptions into visual mockups:"
-msgstr ""
+msgstr "ImagineUI convierte una descripción de la interfáz en un modelo visual:"
 
 #: ce59f5b67e9c44d2abcd0d38b66652a1
 msgid ""
@@ -50,4 +51,21 @@ msgid ""
 "            Header\n"
 "            <Link to blog post>"
 msgstr ""
-
+"Página: Autorización\n"
+"Bloque principal: Inicio de sesión\n"
+"    Logotipo de la imagen\n"
+"    Encabezado\n"
+"    Campo: \"сorreo electrónico o número de teléfono\"\n"
+"    Campo de contraseña\n"
+"    Botón \"Iniciar sesión\"\n"
+"Bloque de servicio\n"
+"    Una fila\n"
+"    Botón \"Registrarse\"\n"
+"    Botón \"Restablecer contraseña\"\n"
+"    \"2020 @ImagineUI\"\n"
+"Bloque de ayuda\n"
+"    Dos columnas\n"
+"    Lista de temas\n"
+"        consiste de\n"
+"            Encabezado\n"
+"            <Link to=\"\" blog=\"\" post=\"\">"
