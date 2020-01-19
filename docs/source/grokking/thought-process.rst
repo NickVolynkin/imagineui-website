@@ -13,7 +13,7 @@ First of all, if we develop a tool for UX design, well, we have to provide param
     * Format should feel familiar for business/system analysts, as they are the most possible candidates for user-base;
     * DocOps; VCS, CI, Single-source, integration into existing toolsets should be as seamless as possible;
     * We should have as few features in the core language as possible, but polished to a point when writing text feel easier than using pen and paper. Less is more.
-    * The tool should cover (UX) to be applicable in real-world scenarios.
+    * The tool should cover the UX of most modern apps/sites (ranging from messaging and e-commerce to complex geo-based systems) to be applicable in real-world scenarios.
 
 We need a simple tool that does complex stuff.
 I think, we can solve that by separating concerns via splitting the UX definitions and the UI details. Basically, HTML & CSS all over again, but going in the opposite direction (low-fidelity, no interactivity, etc.) in favor of ease of use.

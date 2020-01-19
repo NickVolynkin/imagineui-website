@@ -32,6 +32,6 @@ ImagineUI converts plaintext interface descriptions into visual mockups:
 
 ..  toctree::
     :maxdepth: 2
-    :caption: Contents:
+    :caption: Get involved:
 
     grokking/thought-process
