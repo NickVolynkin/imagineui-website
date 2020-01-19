@@ -60,6 +60,11 @@ html_static_path = ['_static']
 html_show_sourcelink = False
 html_copy_source = False
 
+locale_dirs = ['locale/']
+gettext_compact = True # default
+gettext_uuid = True
+gettext_location = False
+
 imagineui = GherkinLexer()
 
 def setup(app: Sphinx):
