@@ -39,7 +39,9 @@ a {
 }
 
 a:hover {
-    color: #00a87a;;
+    opacity: 70%;
+    border-bottom: 2px solid #7D3FFF;
+    cursor: pointer;
 }
 
 .separator {
