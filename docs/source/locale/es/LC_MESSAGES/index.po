@@ -23,7 +23,7 @@ msgstr ""
 
 #: acb63af5b1b4428fa0ec0ce4baf8940c
 msgid "ImagineUI Documentation"
-msgstr "Документация ImagineUI"
+msgstr ""
 
 #: 6fdc48fae1164aa38243d2398096aa60
 msgid "ImagineUI converts plaintext interface descriptions into visual mockups:"
