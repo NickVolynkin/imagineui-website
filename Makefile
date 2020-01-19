@@ -26,24 +26,27 @@ en:
 	@$(SPHINXBUILD) -M $(BUILDER) "$(SOURCEDIR)" "$(BUILDDIR)"/en -D language=en
 
 ru:
-	@$(SPHINXBUILD) -M $(BUILDER) "$(SOURCEDIR)" "$(BUILDDIR)"/ru -D language=ru_RU
+	@$(SPHINXBUILD) -M $(BUILDER) "$(SOURCEDIR)" "$(BUILDDIR)"/ru -D language=ru
 
+es:
+	@$(SPHINXBUILD) -M $(BUILDER) "$(SOURCEDIR)" "$(BUILDDIR)"/es -D language=es
 
 serve: clean
 	sphinx-autobuild -E -b $(BUILDER) --delay 5 --ignore *_jb_* -D language=en "$(SOURCEDIR)"  "$(BUILDDIR)/en"
 
 serve-ru: clean
-	sphinx-autobuild -E -b $(BUILDER) --delay 5 --ignore *_jb_* -D language=ru_RU "$(SOURCEDIR)" "$(BUILDDIR)/ru"
+	sphinx-autobuild -E -b $(BUILDER) --delay 5 --ignore *_jb_* -D language=ru "$(SOURCEDIR)" "$(BUILDDIR)/ru"
 
-docs: clean en ru
+docs: clean en ru es
 
 clean-publish:
 	rm -rf "$(PUBLISHDIR)"
 
 prepare-publish: docs clean-publish
 	cp -r site "$(PUBLISHDIR)"
-	mkdir -p "$(PUBLISHDIR)/en" "$(PUBLISHDIR)/ru"
+	mkdir -p "$(PUBLISHDIR)/en" "$(PUBLISHDIR)/ru" "$(PUBLISHDIR)/es"
 	cp -r "$(BUILDDIR)/en/$(BUILDER)" 	"$(PUBLISHDIR)/en/docs"
+	cp -r "$(BUILDDIR)/es/$(BUILDER)" 	"$(PUBLISHDIR)/es/docs"
 	cp -r "$(BUILDDIR)/ru/$(BUILDER)" 	"$(PUBLISHDIR)/ru/docs"
 
 publish-only:
