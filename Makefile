@@ -14,7 +14,7 @@ BUILDER       = dirhtml
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help Makefile docs
+.PHONY: help Makefile docs publish
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
@@ -46,8 +46,10 @@ prepare-publish: docs clean-publish
 	cp -r "$(BUILDDIR)/en/$(BUILDER)" 	"$(PUBLISHDIR)/en/docs"
 	cp -r "$(BUILDDIR)/ru/$(BUILDER)" 	"$(PUBLISHDIR)/ru/docs"
 
-publish: prepare-publish
-	gh-pages -t -d publish
+publish-only:
+	gh-pages -tf -r git@github.com:imagineui/imagineui.github.io.git -d publish
+
+publish: prepare-publish publish-only
 
 toc:
 	doctoc --maxlevel 1 readme.md
