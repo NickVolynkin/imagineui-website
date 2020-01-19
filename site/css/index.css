@@ -1,0 +1,52 @@
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: "SuisseIntl", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    margin-top: 0;
+    font-weight: 700;
+    text-align: center;
+    color: #404040;
+}
+
+.caption-text {
+    font-size: 24px;
+    font-family: "SuisseIntl", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    margin-top: 0;
+    font-weight: 700;
+    text-align: center;
+    color: #404040;
+    text-align: center;
+}
+
+.lang-switcher {
+    margin-top: 16px;
+}
+
+a {
+    color: black;
+    font-family: "SuisseIntl", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #00a87a;;
+}
+
+.separator {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.18px;
+    margin-top: 28px;
+    color: rgba(0, 0, 0, 1);
+    padding: 0 8px;
+}
