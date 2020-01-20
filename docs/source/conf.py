@@ -48,9 +48,10 @@ html_theme_options = {
 
 html_context = {
     "display_github": True,
-    'github_user': 'NickVolynkin',
+    'github_user': 'imagineui',
     'github_repo': 'imagineui-website',
-    'conf_py_path': 'docs/',
+    'github_version': 'master/',
+    'conf_py_path': 'docs/source/',
     }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -65,7 +66,6 @@ gettext_compact = True  # default
 gettext_uuid = True
 gettext_location = False
 gettext_additional_targets = ['literal-block', 'image']
-
 
 imagineui = GherkinLexer()
 
