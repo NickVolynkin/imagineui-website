@@ -50,7 +50,7 @@ prepare-publish: docs clean-publish
 	cp -r "$(BUILDDIR)/ru/$(BUILDER)" 	"$(PUBLISHDIR)/ru/docs"
 
 publish-only:
-	gh-pages -tf -d publish
+	npm run publish
 	git fetch origin
 	git push -f website origin/gh-pages:master
 

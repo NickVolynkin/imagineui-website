@@ -34,10 +34,12 @@ To start working on website and docs, first prepare your development environment
     
     sphinx-build 2.3.1
     ```
-3. If you want to publish website to GitHub pages, also install the `gh-pages` npm package:
+   
+3. If you want to publish website to GitHub pages, also initialize the node environment and connect the repository for website content:
 
     ```console
-    $ npm install gh-pages
+    $ npm install
+    $ git remote add website git@github.com:imagineui/imagineui.github.io.git
     ```
 
 Now your environment is ready.
