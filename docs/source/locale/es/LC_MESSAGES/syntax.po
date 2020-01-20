@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ImagineUI\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-19 22:10+0700\n"
-"PO-Revision-Date: 2020-01-19 19:43+0300\n"
+"PO-Revision-Date: 2020-01-20 16:26+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: 8de06006dc594e248f4bb78f0c896db8
 msgid "Page blocks"
-msgstr "Bloques de páginas"
+msgstr "Bloques de la página"
 
 #: 0ea9a816f1b644ecb6cdf8999c8efef0
 msgid "Page elements"
@@ -32,7 +32,7 @@ msgstr "Modificadores"
 
 #: af754145eb0a4c0ead12988cc4bbe624
 msgid "Layouts"
-msgstr "Diseño"
+msgstr "Maquetación"
 
 #: 536959d72204423f9dccfced5da43d3b
 msgid "Data types"
@@ -50,7 +50,7 @@ msgstr "Alineado"
 msgid "Use this keyword to align elements in a block:"
 msgstr ""
 "Utiliza la siguente palabra clave para alinear los elementos dentro de un "
-"bloque: "
+"bloque:"
 
 #: c1a43212e5cf4eef804844353e3dd5d8
 msgid "Block"
@@ -70,8 +70,8 @@ msgid ""
 "Use ``Block`` to define major areas of a :doc:`page`. Each page can contain "
 "one or more blocks."
 msgstr ""
-"Utiliza ``Bloque`` para definir las principales partes de una :doc:`página`. "
-"Cada página puede contener un bloque o más. "
+"Utiliza ``Bloque`` para definir las principales partes de una :doc:`página "
+"<page>`. Cada página puede contener uno o varios bloques."
 
 #: 0ae4df547d4347e89408fc78ce4743d1 96f043bdc1ce4769a26211a7ff0042d6
 #: aa5514c34f904f5782ebaf0adbe3c609
@@ -93,7 +93,7 @@ msgstr ""
 #: ec88c968e9af4bbe83ff06a3e76cb928
 msgid "Note that you can define :ref:`layouts <layout>` for elements in a block."
 msgstr ""
-"También se pueden definir los :ref:`diseños <layout>` para los elementos en un "
+"También puedes definir el :ref:`diesño <layout>` para los elementos en un "
 "bloque."
 
 #: fd130d918f814c79bbdf76cfe2af73f1
@@ -104,13 +104,13 @@ msgstr "Botón"
 msgid "Use the ``Button`` keyword for anything clickable on a page:"
 msgstr ""
 "Utiliza la palabra clave ``Botón`` para cualquier elemento cliqueable en la "
-"página: "
+"página:"
 
 #: 5095212c02ef4620980aeb206dc72c47
 msgid "As with other keywords, word order and capitalization are optional:"
 msgstr ""
 "Igual que con otras palabras claves el orden de palabras y la capitalización "
-"son opcionales: "
+"son opcionales:"
 
 #: 6c59bdd5dbb14af299abe4acf97fbd40
 msgid ""
@@ -182,7 +182,7 @@ msgstr ""
 
 #: f855e4382c1e40848c1d37caf50d9207
 msgid "Or, an online store:"
-msgstr ""
+msgstr "O una tienda online:"
 
 #: 9c936150a188494fa8a6c0c4724ca203 c9377853c1644faa83d0785c891d0d9f
 msgid ""
@@ -194,36 +194,46 @@ msgid ""
 "            Image\n"
 "             \"Buy now\" Button"
 msgstr ""
+"Bloque \"Tienda\"\n"
+"    Tres columnas\n"
+"    Lista de las cosas en venta\n"
+"        Consiste de\n"
+"            Encabezado\n"
+"            Imágen\n"
+"             \"Comprar ahora\" Botón"
 
 #: af09f802af55441bbb5316da078c5d25
 msgid "Consists of"
-msgstr ""
+msgstr "Consiste de"
 
 #: dfb1c1dfb33841499f6fb5c46e77497f
 msgid ""
 "Use the ``Consists of`` keyword to fill a :doc:`list <list>` with typical "
 "elements:"
 msgstr ""
+"Utiliza las palabras claves ``Consiste de`` para rellenar una :doc:`lista "
+"<list>` con los elementos correspondientes:"
 
 #: 95e1ad39f8c64e9dbfe3573f4b5f9c21
 msgid "Example"
-msgstr ""
+msgstr "Ejemplo"
 
 #: 91df08056bf74e839644116c91da6d27
 msgid "Field"
-msgstr ""
+msgstr "Campo"
 
 #: 520b3b1bb66c475998bdb358bb674c7f
 msgid "``Field`` is any text that the user types on a page."
 msgstr ""
+"``Campo`` representa cualquier texto que el usuario introduce en la página."
 
 #: 073d2a87cc854041be15d8943766ddf4
 msgid "Header"
-msgstr ""
+msgstr "Encabezado"
 
 #: 58237bc6f4f84f21837f80cf5bf05551
 msgid "Use ``Header`` to highlight short lines of text:"
-msgstr ""
+msgstr "Utiliza ``Encabezado`` para resaltar algunos elementos del texto:"
 
 #: 8366e4058780454baf9130f831deebff
 msgid ""
@@ -234,10 +244,16 @@ msgid ""
 "    Image for drawing attention\n"
 "    \"Text\""
 msgstr ""
+"Página \"Una publicación en el blog\"\n"
+"Bloque \"Texto\"\n"
+"    Encabezado \"Título de la publicación\"\n"
+"    \"Nombre del autor\"\n"
+"    Una imágen llamativa\n"
+"    \"Texto\""
 
 #: d56bd37c38de423ab6c9739f89176189
 msgid "Image"
-msgstr ""
+msgstr "Imágen"
 
 #: 7b4da2b862fe4a97968629ce80030984
 msgid ""
@@ -245,6 +261,9 @@ msgid ""
 "bother providing a real image. Instead, the mockup will have an image "
 "placeholder. Text is optional."
 msgstr ""
+"Utiliza ``Imágen`` para definir el sitio de una imágen, diagrama o vídeo. No "
+"te preocupes por poner una imágen real: la maqueta tendrá una imágen que sirve "
+"de placeholder. El texto es opcional."
 
 #: ada455d384ad4098b3f5044213e165ba
 msgid ""
@@ -256,26 +275,33 @@ msgid ""
 "        Image \"Your mockups are great,\"\n"
 "        Image \"And so are you!\""
 msgstr ""
+"Página \"Floristería\"\n"
+"Bloque \"Flores\"\n"
+"    Dos columnas\n"
+"        Imágen \"Las rosas son rojas,\"\n"
+"        Imágen \"Cuidado que pinchas sus hojas.\"\n"
+"        Imágen \"Esta maqueta mola mucho,\"\n"
+"        Imágen \"Toma helado en cucurucho!\""
 
 #: c1cc94ddcb74457a8e0708747ad20b32
 msgid "List"
-msgstr ""
+msgstr "Lista"
 
 #: fa776e516b054ebdab3de5143ebb1ceb
 msgid "Main"
-msgstr ""
+msgstr "Principal"
 
 #: 57f0072077bd43eebb0b905d81360366
 msgid "Numbers"
-msgstr ""
+msgstr "Números"
 
 #: 68bfbbcb95c44f4fa478fd3c1d8d690b
 msgid "Page"
-msgstr ""
+msgstr "Página"
 
 #: 452fe127e3e94e0c9321964f75e6f79e
 msgid "Start every scene with ``Page`` keyword and a name:"
-msgstr ""
+msgstr "Empieza cada escena con la palabra clave ``Página`` y un nombre:"
 
 #: d2bfa7a44b9c4d46a2175bb0fbe2320f
 msgid ""
@@ -286,36 +312,50 @@ msgid ""
 "    ...\n"
 "Block \"Footer\""
 msgstr ""
+"Página \"Registrarse\"\n"
+"Bloque \"Navegación principal\"\n"
+"    ...\n"
+"Bloque \"Datos personales\"\n"
+"    ...\n"
+"Bloque \"Pie de página\""
 
 #: 8e916944a8c54bf5a9efc43b4f0b5630
 msgid ""
 "The page's name is there just for you to remember what each scene is about. It "
 "does not appear on the rendered mockup."
 msgstr ""
+"El nombre de la página está para que te acuerdes mejor de qué va cada escena y "
+"no va a aparecer en la maqueta procesada."
 
 #: 2e53e3f066df4152a8a6bae566169ddd
 msgid "Word order and capitalization are optional. Use it to your convenience:"
 msgstr ""
+"El órden de palabras y la capitalización son opcionales. Puedes utilizarlo a "
+"tu conveniencia:"
 
 #: 826de79eef5b4bc181b683fba1a9d49e
 msgid ""
 "\"Signup\" page\n"
 "..."
 msgstr ""
+"página \"Registrarse\"\n"
+"..."
 
 #: 7e20564a711946cfb5b3250959c27382
 msgid "Rows"
-msgstr ""
+msgstr "Filas"
 
 #: b8577390b2e747de9d35d9128d6a27e8
 msgid ""
 "Use ``Columns`` with a :doc:`number <numbers>` to arrange elements in one or "
 "more rows (lines)."
 msgstr ""
+"Utiliza ``Columnas`` con un :doc:`número <numbers>` para repartir los "
+"elementos en una o más filas."
 
 #: 4e4c255debb046fa9172bd04e07f3766
 msgid "For example, a horizontal menu, like the one on this website:"
-msgstr ""
+msgstr "Por ejemplo, una navegación horizontal como en esta página web:"
 
 #: c46f436552d2458d8ccef26422f56c12
 msgid ""
@@ -325,14 +365,19 @@ msgid ""
 "    \"Sandbox\"\n"
 "    \"Docs\""
 msgstr ""
+"Bloque \"Navegación principal\"\n"
+"    Una fila\n"
+"    \"ImagineUI\"\n"
+"    \"Sandbox\"\n"
+"    \"Documentos\""
 
 #: ab2849c9b69b4fa0b2c3feabdb0bf95a
 msgid "Text"
-msgstr ""
+msgstr "Texto"
 
 #: 8d471622776d4fc8bfe932b88b52a96e
 msgid "To add some non-interactive text on your mockup, just write it in quotes:"
-msgstr ""
+msgstr "Puedes añadir texto simple en tu maqueta, escríbelo en comillas:"
 
 #: 90fc0031526844a1a77a9660e7597df6
 msgid ""
@@ -341,6 +386,10 @@ msgid ""
 "    \"Hello!\"\n"
 "    \"You look awesome today.\""
 msgstr ""
+"Página \"Una página muy normal\"\n"
+"Bloque \"Bienvenido\"\n"
+"    \"Hola:\"\n"
+"    \"¡Hoy vas a tener un día estupendo!\""
 
 #: 86e7784cb2a64c19a9a1021f4012e16b
 msgid "With icon"

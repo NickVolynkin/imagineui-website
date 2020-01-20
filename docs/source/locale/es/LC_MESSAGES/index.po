@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ImagineUI\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-19 22:07+0700\n"
-"PO-Revision-Date: 2020-01-19 19:29+0300\n"
+"PO-Revision-Date: 2020-01-20 16:32+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,7 +28,7 @@ msgstr "Documentación de ImagineUI"
 
 #: a48fe4dfad4c481380bb1e4048e2b937
 msgid "ImagineUI converts plaintext interface descriptions into visual mockups:"
-msgstr "ImagineUI convierte una descripción de la interfáz en un modelo visual:"
+msgstr "ImagineUI convierte una descripción de la interfáz en una maqueta visual:"
 
 #: ce59f5b67e9c44d2abcd0d38b66652a1
 msgid ""
@@ -68,4 +68,4 @@ msgstr ""
 "    Lista de temas\n"
 "        consiste de\n"
 "            Encabezado\n"
-"            <Link to=\"\" blog=\"\" post=\"\">"
+"             <Link to blog post>"
