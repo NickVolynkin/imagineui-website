@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ImagineUI\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-19 22:10+0700\n"
-"PO-Revision-Date: 2020-01-22 18:50+0300\n"
+"PO-Revision-Date: 2020-01-22 20:14+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -49,7 +49,7 @@ msgstr "Alineado"
 #: 4b1be812ff874bc8be382b020ca38b4f
 msgid "Use this keyword to align elements in a block:"
 msgstr ""
-"Utiliza la siguente palabra clave para alinear los elementos dentro de un "
+"Utiliza la siguiente palabra clave para alinear los elementos dentro de un "
 "bloque:"
 
 #: c1a43212e5cf4eef804844353e3dd5d8
@@ -70,8 +70,8 @@ msgid ""
 "Use ``Block`` to define major areas of a :doc:`page`. Each page can contain "
 "one or more blocks."
 msgstr ""
-"Utiliza ``Bloque`` para definir las principales partes de una :doc:`página "
-"<page>`. Cada página puede contener uno o varios bloques."
+"Utiliza ``Bloque`` para definir las partes principales de una :doc:`página "
+"<page>`. Cada página puede tener uno o varios bloques."
 
 #: 0ae4df547d4347e89408fc78ce4743d1 96f043bdc1ce4769a26211a7ff0042d6
 #: aa5514c34f904f5782ebaf0adbe3c609
@@ -103,7 +103,7 @@ msgstr "Botón"
 #: 0dca74ce8dcb45f38f0f711792594e4c
 msgid "Use the ``Button`` keyword for anything clickable on a page:"
 msgstr ""
-"Utiliza la palabra clave ``Botón`` para cualquier elemento cliqueable en la "
+"Utiliza la palabra clave ``Botón`` para cualquier elemento interactivo en la "
 "página:"
 
 #: 5095212c02ef4620980aeb206dc72c47
@@ -146,7 +146,7 @@ msgstr ""
 "Bloque \"Navegación\"\n"
 "    Botón \"Cancelar\"\n"
 "    Botón \"Anterior\"\n"
-"    Botón \"Siguente\""
+"    Botón \"Siguiente\""
 
 #: 57f105b2889546c4b0392ac919acc1b4
 msgid "Columns"
@@ -175,7 +175,7 @@ msgid ""
 msgstr ""
 "Bloque \"Navegación\"\n"
 "    Una columna\n"
-"    \"Perfíl\"\n"
+"    \"Perfil\"\n"
 "    \"Amigos\"\n"
 "    \"Mensajes\"\n"
 "    \"Ajustes\""
@@ -199,7 +199,7 @@ msgstr ""
 "    Lista de las cosas en venta\n"
 "        Consiste de\n"
 "            Encabezado\n"
-"            Imágen\n"
+"            Imagen\n"
 "             \"Comprar ahora\" Botón"
 
 #: af09f802af55441bbb5316da078c5d25
@@ -248,12 +248,12 @@ msgstr ""
 "Bloque \"Texto\"\n"
 "    Encabezado \"Título de la publicación\"\n"
 "    \"Nombre del autor\"\n"
-"    Una imágen llamativa\n"
+"    Una imagen llamativa\n"
 "    \"Texto\""
 
 #: d56bd37c38de423ab6c9739f89176189
 msgid "Image"
-msgstr "Imágen"
+msgstr "Imagen"
 
 #: 7b4da2b862fe4a97968629ce80030984
 msgid ""
@@ -261,9 +261,9 @@ msgid ""
 "bother providing a real image. Instead, the mockup will have an image "
 "placeholder. Text is optional."
 msgstr ""
-"Utiliza ``Imágen`` para definir el sitio de una imágen, diagrama o vídeo. No "
-"te preocupes por poner una imágen real: la maqueta tendrá una imágen que sirve "
-"de placeholder. El texto es opcional."
+"Utiliza ``Imagen`` para marcar el sitio para una de una imagen, diagrama o "
+"vídeo. No te preocupes por poner una imagen real: la maqueta tendrá una imagen "
+"que sirve de marcador de posición. El texto es opcional."
 
 #: ada455d384ad4098b3f5044213e165ba
 msgid ""
@@ -278,10 +278,10 @@ msgstr ""
 "Página \"Floristería\"\n"
 "Bloque \"Flores\"\n"
 "    Dos columnas\n"
-"        Imágen \"Las rosas son rojas,\"\n"
-"        Imágen \"Cuidado que pinchas sus hojas.\"\n"
-"        Imágen \"Esta maqueta mola mucho,\"\n"
-"        Imágen \"Toma helado en cucurucho!\""
+"        Imagen \"Las rosas son rojas,\"\n"
+"        Imagen \"Cuidado que pinchas sus hojas.\"\n"
+"        Imagen \"Esta maqueta mola mucho,\"\n"
+"        Imagen \"¡Toma helado en cucurucho!\""
 
 #: c1cc94ddcb74457a8e0708747ad20b32
 msgid "List"
@@ -324,14 +324,12 @@ msgid ""
 "The page's name is there just for you to remember what each scene is about. It "
 "does not appear on the rendered mockup."
 msgstr ""
-"El nombre de la página está para que te acuerdes mejor de qué va cada escena y "
-"no va a aparecer en la maqueta procesada."
+"El nombre de la página no va a aparecer en la maqueta procesada y simplemente "
+"está para que te acuerdes mejor de qué va cada escena."
 
 #: 2e53e3f066df4152a8a6bae566169ddd
 msgid "Word order and capitalization are optional. Use it to your convenience:"
-msgstr ""
-"El órden de palabras y la capitalización son opcionales. Puedes utilizarlo a "
-"tu conveniencia:"
+msgstr "El orden de palabras y la capitalización no tienen importancia:"
 
 #: 826de79eef5b4bc181b683fba1a9d49e
 msgid ""
@@ -377,7 +375,7 @@ msgstr "Texto"
 
 #: 8d471622776d4fc8bfe932b88b52a96e
 msgid "To add some non-interactive text on your mockup, just write it in quotes:"
-msgstr "Puedes añadir texto simple en tu maqueta, escríbelo en comillas:"
+msgstr "Puedes añadir texto simple en tu maqueta escribiéndolo en comillas:"
 
 #: 90fc0031526844a1a77a9660e7597df6
 msgid ""
